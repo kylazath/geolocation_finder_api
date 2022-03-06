@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: sofomo_production
-  username: sofomo
-  password: <%= ENV["SOFOMO_DATABASE_PASSWORD"] %>
+  # username: sofomo
+  # password: <%= ENV["SOFOMO_DATABASE_PASSWORD"] %>
