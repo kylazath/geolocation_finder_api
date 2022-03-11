@@ -1,0 +1,9 @@
+with_uri:
+  identifiable_by: "https://www.google.com/"
+  latitude: "52.243633"
+  longitude: "20.966139"
+
+with_ip:
+  identifiable_by: "192.168.123.321"
+  latitude: "50.243633"
+  longitude: "18.966139"
