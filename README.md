@@ -1,24 +1,13 @@
-# README
+# App setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Make sure you have Ruby and Bundler installed
 
-Things you may want to cover:
+- Clone this repository - `git clone git@github.com:kylazath/geolocation_finder_api.git && cd geolocation_finder_api`
 
-* Ruby version
+- Install gems - `bundle install`
 
-* System dependencies
+- Run migrations - `rails db:create db:migrate db:seed`
 
-* Configuration
+- Run aplication - `rails s`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Run tests - `rails t`
